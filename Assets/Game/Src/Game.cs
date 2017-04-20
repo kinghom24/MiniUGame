@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using XLua;
 using System.IO;
-using LuaAPI = XLua.LuaDLL.Lua;
+
 public class Game : MonoBehaviour {
 
 	// Use this for initialization

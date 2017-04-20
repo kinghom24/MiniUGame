@@ -10,7 +10,7 @@ public class Game : MonoBehaviour {
         luaenv.AddLoader((ref string filename) =>
         {
             filename = filename.Replace('.', '/') + ".lua";
-            var fileAddress = Path.Combine(Application.dataPath, "Game/Resources/" + filename);
+            var fileAddress = Path.Combine(Application.dataPath, "Game/LuaScript/" + filename);
             FileInfo fInfo0 = new FileInfo(fileAddress);
             string s = "";
             if (fInfo0.Exists)
